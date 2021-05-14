@@ -1,0 +1,78 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	box-sizing: border-box;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	display: inline-block;
+}
+
+.container {
+    width: 580px;
+	margin: 0 auto;
+}
+
+/* ==== NAV BAR ==== */
+
+.header_part{
+	height: 30px;
+}
+
+.links ul{
+	float: right
+}
+
+.links ul li {
+	float: left;
+}
+
+
+.links li img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;	
+}
+
+.links li img:hover{
+	background-color: #f1f1f1;
+}
+
+.links li a {
+	color: #212121;
+	font-size: 14px;
+	margin: 10px 10px;
+	font-family: arial,sans-serif;
+	line-height: 30px;
+}
+
+.underline:hover{
+	text-decoration: underline;
+}
+
+
+.sign_in {
+	text-align: center;
+	background-color: #1a73e8;
+	width: 90px;
+	border-radius: 3px;
+}
+
+.sign_in:hover{
+	background-color: #3984e6;
+}
+
+
+/* ==== NAV BAR ==== */
+
+
+/* ==== GOOGLE IMAGE ==== */
+
+
+/* ==== GOOGLE IMAGE ==== */
