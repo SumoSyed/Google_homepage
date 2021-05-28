@@ -112,8 +112,8 @@ a {
 	font-size: 16px;
 	border-radius: 100px;
 	border: 1px solid rgb(204, 204, 204);
-	width: 75%;
-	margin: 0 80px;
+	width: 95%;
+	margin: 0 50px;
 	padding: 10px 35px;
 	box-sizing: border-box;
 }
@@ -130,13 +130,15 @@ a {
 
 .search_icon img{
 	width: 32px;
+	margin-left: -30px;
 }
 /* ==== SEARCH BAR END ==== */
 
 /* ==== SEARCH BTN START ==== */
 
 .search_btn{
-	margin: 0 auto;
+	padding-top: 2%;
+	padding-left: 10%;
 }
 
 .button{
@@ -146,8 +148,8 @@ a {
 button{
 	margin-left: 20px;
 	margin-top: 10px;
-	width: 200px;
-	height: 30px;
+	width: 220px;
+	height: 35px;
 	background: #f8f9fa;
 	border: 1px solid #f8f9fa;
 	border-radius: 4px;
@@ -155,6 +157,7 @@ button{
 	color: #212121;
 	font-size: 14px;
 	font-family: arial,sans-serif;
+	margin-left: 35px;
 }
 
 button:hover{
@@ -166,5 +169,60 @@ button:hover{
 
 /* ==== FOOTER START ==== */
 
+#footer_part{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 54px;
+}
+
+.top_footer{
+	height: 50px;
+	background: #f2f2f2;
+	border-bottom: 1px solid #dadce0;
+}
+
+.top_footer p{
+	font-size: 15px;
+	color: rgba(0,0,0,.54);
+	font-family: arial,sans-serif;
+	padding-left: 30px;
+	line-height: 50px;
+}
+
+.bottom_footer{
+	background: #f2f2f2;
+	height: 50px;
+}
+
+.lb_footer{
+	float: left;
+	width: 50%;
+	padding-left: 10px;
+}
+
+.rb_footer{
+	float: right;
+}
+
+
+.bottom_footer a{
+	font-size: 15px;
+	color: rgba(0,0,0,.54);
+	font-family: arial,sans-serif;
+	line-height: 50px;
+}
+
+.lb_footer a{
+	padding: 0 20px;
+}
+
+.rb_footer a{
+	padding-right: 30px;
+}
+
+.bottom_footer a:hover{
+	text-decoration: underline;
+}
 
 /* ==== FOOTER END  ==== */
